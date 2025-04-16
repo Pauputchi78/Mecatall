@@ -14,9 +14,45 @@ h1{
     color: #FF8C00;
     background: #FFFFFF;
     margin-bottom: 0;
+    margin-top: 3rem;
 }header h2{
     font-size: 1.4rem;
     color: #555555;
     margin-top: 0;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+header img{
+    width: 22rem;
+    height: 22rem;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #ffd86d;
+   
     
+}
+header ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+header ul li a{
+    text-decoration: none;
+    color: #462004;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header ul li a:hover{
+    color: #fff6d3;
 }
