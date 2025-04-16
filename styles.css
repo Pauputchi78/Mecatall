@@ -1,0 +1,22 @@
+html{
+    font-size: 16px;
+}
+header{
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    text-shadow: 3px 5px 2px #474747, 8px -1px 1px rgba(255,140,0,0);
+    color: #FF8C00;
+    background: #FFFFFF;
+    margin-bottom: 0;
+}header h2{
+    font-size: 1.4rem;
+    color: #555555;
+    margin-top: 0;
+    
+}
