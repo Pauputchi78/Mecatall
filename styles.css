@@ -1,6 +1,8 @@
 html{
     font-size: 16px;
-    margin: 10px;
+}
+body{
+    margin: 0;
 }
 header{
     text-align: center;
@@ -107,7 +109,15 @@ section h2{
 .contacto h3{
     margin: 5px 5px 10px 30px;
     text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #555555;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    
 }
+
 
 .datos{
     display: flex;
@@ -153,5 +163,24 @@ section h2{
 .mensaje button:hover{
     background: linear-gradient(to right, #ffa40a, #ff8c00);
     color: white;
+}
+footer{
+    background: radial-gradient(circle, #cccccc, #e0e0e0);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 1px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer p{
+    margin: 0;
+    font-size: 1rem;
+    font-style: italic;
+    color: black;
+    
 }
 
