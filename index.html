@@ -14,8 +14,9 @@
         <nav>
             <ul>
                 <li><a href="#Nosotros">Nosotros</a></li>
-                <li><a href="">Contacto</a></li>
-                <li><a href="">Colección</a></li>
+                <li><a href="#coleccion">Colección</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                
             </ul>
 
         </nav>
@@ -31,6 +32,32 @@
             <img src="images/reparacion.jpg" alt="Vehiculo en reparación">
         </div>
         
+    </section>
+    <section id="coleccion">
+        <h2>COLECCIÓN</h2>
+    </section>
+
+    <section id="contacto">
+        <h2>CONTACTA CON NOSOTROS</h2>
+        <form class="contacto" >
+            <h3>Formulario</h3>
+            <div class="datos">
+                <label for="nombre">Nombre</label>
+                <input type="text" required placeholder="Pedro">
+                <label for="apellidos">Apellidos</label>
+                <input type="text" required placeholder="Sanchez">
+                <label for="correo">Correo electronico</label>
+                <input type="email" required placeholder="pedrito@gmail.com">
+                <label for="telefono">Telefono</label>
+                <input type="tel" placeholder="Opcional">
+            </div>
+            <div class="mensaje">
+                <label>Escribe tu mensaje:</label>
+                <textarea name="mensaje" id="aratext" required ></textarea>
+                <button type="submit">CONTACTAR</button>
+            </div>
+            
+        </form>
     </section>
     
     
